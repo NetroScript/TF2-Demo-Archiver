@@ -1,11 +1,14 @@
 # TF2-Demo-Archiver
 _____________________________________________
 Like the name implies - this is a script to archive your created demos.  
+
 You save around 40% of space.  
+
 Should work with both demos created by P-Rec and Demos created by the integrated feature of TF2.  
 
 ### Notes:  
 This is really old code, so it isn't the best syntax-wise but it works, if you have a problem feel free to create an issue.  
+
 Settings which you can set later on:
 
 * The path of your demos
