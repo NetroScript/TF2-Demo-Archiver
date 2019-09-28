@@ -31,7 +31,7 @@ _____________________________________________
 ### 0.2
 
 * Added:
-    * The demo archiver now utilises 8 Threads while archiving (meaning depending on your CPU you have an up to ~8x Speed improvement due to using multiple processor cores)
+    * The demo archiver now utilises as many Threads as you have logical cores while archiving (meaning on the average CPU you have a ~8x Speed improvement due to using multiple processor cores)
 * Improved:
     * Variable names and cleared code up generally
 

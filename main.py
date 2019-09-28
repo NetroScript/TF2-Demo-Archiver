@@ -7,6 +7,7 @@ import tarfile
 import shutil
 import json
 from multiprocessing.dummy import Pool as ThreadPool
+from multiprocessing import cpu_count
 
 settings = {
     "convert_images": True,
@@ -39,7 +40,7 @@ def load_files(path):
 
 # Function to process files
 def process_files(files, target):
-    pool = ThreadPool(8)
+    pool = ThreadPool(cpu_count())
     to_process = []
 
     for i in files:
