@@ -7,8 +7,6 @@ You save around 40% of space.
 Should work with both demos created by P-Rec and Demos created by the integrated feature of TF2.  
 
 ### Notes:  
-This is really old code, so it isn't the best syntax-wise but it works, if you have a problem feel free to create an issue.  
-
 Settings which you can set later on:
 
 * The path of your demos
@@ -29,6 +27,16 @@ _____________________________________________
 ## Changelog
 _____________________________________________
 
+
+### 0.2
+
+* Added:
+    * The demo archiver now utilises 8 Threads while archiving (meaning depending on your CPU you have an up to ~8x Speed improvement due to using multiple processor cores)
+* Improved:
+    * Variable names and cleared code up generally
+
+#### Warning:
+ 0.2 breaks compatibility with the settings.json, you will need to delete your previous one when upgrading.
 
 ### 0.1
 
