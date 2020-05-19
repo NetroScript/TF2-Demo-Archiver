@@ -15,7 +15,7 @@ settings = {
     "folder_each_day": True,
 }
 delete = []
-saving = True
+saving = False
 tf2_path = ""
 save_path = ""
 demos = []
@@ -152,10 +152,10 @@ print("Starting Jacks Demo Archiver version 0.2")
 load_settings()
 
 # If no settings available ask the user which settings he wants
-if saving:
+if saving == False:
 
     if easygui.boolbox("Do you want to save your settings? (So you won't have to chose them again)", "", ["Yes", "No"]):
-        saving = False
+        saving = True
 
     print("Select your TF-Demos path")
     while not tf2_path:
